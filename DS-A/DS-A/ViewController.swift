@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        print(ZigZag.convert("PAYPALISHIRING", 4))
-        print(SubString11.output(values: [3, 9])
-        
+//        print(SubString11.output(values: [3, 9])
+        print(EncodingStrings.frequency(s:  "23#(2)24#25#26#23#(3)"))
         
     }
 }

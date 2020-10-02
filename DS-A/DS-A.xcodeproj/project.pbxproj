@@ -15,6 +15,7 @@
 		8185A3E5250D3F2200C8075D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8185A3E4250D3F2200C8075D /* Assets.xcassets */; };
 		8185A3E8250D3F2200C8075D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8185A3E6250D3F2200C8075D /* LaunchScreen.storyboard */; };
 		8185A3F1250D3F5500C8075D /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185A3F0250D3F5500C8075D /* ZigZag.swift */; };
+		8196BD9725272A1D006B8DF5 /* EncodingStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8196BD9625272A1D006B8DF5 /* EncodingStrings.swift */; };
 		81A417FD250E88CD006DDC53 /* StockPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A417FC250E88CD006DDC53 /* StockPrice.swift */; };
 		81A417FF250E88E5006DDC53 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 81A417FE250E88E5006DDC53 /* data.json */; };
 		81CA80A7250E94A1002A3D33 /* Batman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA80A6250E94A1002A3D33 /* Batman.swift */; };
@@ -31,6 +32,7 @@
 		8185A3E7250D3F2200C8075D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8185A3E9250D3F2200C8075D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8185A3F0250D3F5500C8075D /* ZigZag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZag.swift; sourceTree = "<group>"; };
+		8196BD9625272A1D006B8DF5 /* EncodingStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingStrings.swift; sourceTree = "<group>"; };
 		81A417FC250E88CD006DDC53 /* StockPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPrice.swift; sourceTree = "<group>"; };
 		81A417FE250E88E5006DDC53 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		81CA80A6250E94A1002A3D33 /* Batman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batman.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		8185A3CF250D3F2100C8075D = {
 			isa = PBXGroup;
 			children = (
+				8196BD95252729FD006B8DF5 /* Encoding */,
 				81100F4F2510F1D8004A1B58 /* SubString11 */,
 				81CA80A5250E9493002A3D33 /* Batman */,
 				81A417FB250E88BE006DDC53 /* StockPrice */,
@@ -95,6 +98,14 @@
 				8185A3F0250D3F5500C8075D /* ZigZag.swift */,
 			);
 			path = ZigZag;
+			sourceTree = "<group>";
+		};
+		8196BD95252729FD006B8DF5 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				8196BD9625272A1D006B8DF5 /* EncodingStrings.swift */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 		81A417FB250E88BE006DDC53 /* StockPrice */ = {
@@ -187,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81100F512510F1ED004A1B58 /* SubString11.swift in Sources */,
+				8196BD9725272A1D006B8DF5 /* EncodingStrings.swift in Sources */,
 				81CA80A7250E94A1002A3D33 /* Batman.swift in Sources */,
 				8185A3E0250D3F2100C8075D /* ViewController.swift in Sources */,
 				8185A3DC250D3F2100C8075D /* AppDelegate.swift in Sources */,
