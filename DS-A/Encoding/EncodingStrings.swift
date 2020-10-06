@@ -20,7 +20,6 @@ class EncodingStrings {
             if stringValue == "#" {
                 let encodedString = String(inputArray[lastIndex-2...lastIndex])
                 let intValue = Int(String(encodedString.prefix(2))) ?? 0
-//                let finalValue = Int(String(encodedString.dropLast().last ?? "0")) ?? 0 + (Int(result[intValue-1]))
                 result[intValue-1] = 1
                 lastIndex -= 3
                 continue
