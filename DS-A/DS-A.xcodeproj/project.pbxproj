@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8102C2C0252F775300CBD2BD /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102C2BF252F775300CBD2BD /* Sort.swift */; };
 		81100F512510F1ED004A1B58 /* SubString11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81100F502510F1ED004A1B58 /* SubString11.swift */; };
 		8185A3DC250D3F2100C8075D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185A3DB250D3F2100C8075D /* AppDelegate.swift */; };
 		8185A3DE250D3F2100C8075D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185A3DD250D3F2100C8075D /* SceneDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8102C2BF252F775300CBD2BD /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		81100F502510F1ED004A1B58 /* SubString11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubString11.swift; sourceTree = "<group>"; };
 		8185A3D8250D3F2100C8075D /* DS-A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DS-A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8185A3DB250D3F2100C8075D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8102C2BE252F773700CBD2BD /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				8102C2BF252F775300CBD2BD /* Sort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		81100F4F2510F1D8004A1B58 /* SubString11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		8185A3CF250D3F2100C8075D = {
 			isa = PBXGroup;
 			children = (
+				8102C2BE252F773700CBD2BD /* Sort */,
 				8196BD95252729FD006B8DF5 /* Encoding */,
 				81100F4F2510F1D8004A1B58 /* SubString11 */,
 				81CA80A5250E9493002A3D33 /* Batman */,
@@ -199,6 +210,7 @@
 			files = (
 				81100F512510F1ED004A1B58 /* SubString11.swift in Sources */,
 				8196BD9725272A1D006B8DF5 /* EncodingStrings.swift in Sources */,
+				8102C2C0252F775300CBD2BD /* Sort.swift in Sources */,
 				81CA80A7250E94A1002A3D33 /* Batman.swift in Sources */,
 				8185A3E0250D3F2100C8075D /* ViewController.swift in Sources */,
 				8185A3DC250D3F2100C8075D /* AppDelegate.swift in Sources */,
@@ -349,6 +361,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DS-A/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DS-A/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
